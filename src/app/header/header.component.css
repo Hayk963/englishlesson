@@ -1,0 +1,111 @@
+body {
+  background-color: #d2d2d2;
+}
+
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  border: 10px;
+  border-top-style: solid;
+  border-top-color:  #800000;
+  border-bottom-style: solid;
+  border-bottom-color:  #000066;
+  text-align: right;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+mat-form-field{
+  margin-top: 10px;
+}
+
+
+
+.example-container > * {
+  width: 95%;
+}
+
+.block {
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.button{
+  margin-left: 5px;
+  border: 1.5px solid #000066;
+}
+/*.button:hover{*/
+/*border: 1.5px solid #800000;*/
+/*}*/
+
+.image {
+  height: 80px;
+  width: 160px;
+  float: left;
+  margin-left: 50px;
+}
+
+.imagebig {
+  position: relative;
+  width: 900px;
+  height: 550px;
+  margin-left: 200px;
+  /*margin-right: aut;*/
+  border-radius: 20px 20px;
+  box-shadow: 5px 5px 5px darkslategrey;
+}
+
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  width: 880px;
+  padding: 10px;
+  margin-left: 200px;
+
+}
+
+
+.example-container1 {
+  width: 400px;
+  height: 250px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 15px;
+  padding-left: 5px;
+  border-radius: 10px 10px;
+  display: inline-flex;
+  box-shadow: 5px 8px 8px grey;
+  background-color: #fff2e6;
+}
+
+
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 10px;
+  font-size: large;
+
+}

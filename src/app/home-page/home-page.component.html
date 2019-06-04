@@ -1,0 +1,156 @@
+<br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="littleBlock">
+      <p>{{FirstName}}</p>
+    </div>
+    <div class="littleBlock">
+     <p>{{LastName}}</p>
+    </div>
+    <button mat-stroked-button  style="margin-right: 20px" class="button" routerLink="" (click)="logout()">Log Out</button>
+</div>
+</div>
+<!---->
+<br><br><br>
+
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" style="background-color: #edf5e1">
+    <button (click)="showFiller = false; showFiller1 = false; hidden1=!hidden1"  mat-stroked-button style="font-size: large;
+      margin: 7px; border-bottom: 2.5px solid; border-radius: 20px 20px; font-size: large">
+      START COURSES
+    </button>
+
+    <div class="example-button-row" *ngFor="let testa of test; let i=index" style="display: flex">
+      <button routerLink="level" (click)="showFiller = true;  shown(); masPushH(i); showFiller1 = false"
+              [disabled]="flag[i]" mat-stroked-button [ngClass]="{'testing': !flag[i]}" *ngIf="!hidden1">
+        Level {{i+1}}</button>
+    <br>
+      <button routerLink="test" [ngClass]="{'testing': !flag[i]}" mat-button (click)="showFiller = false; showFiller1 = true; masPushT(i)"
+               *ngIf="!hidden1" [disabled]="flag[i]">
+        Test {{i+1}}</button>
+      <hr *ngIf="!hidden1">
+    </div>
+  </mat-drawer>
+
+
+
+
+  <div class="example-sidenav-content">
+
+
+    <div *ngIf="showFiller" style="margin-top: 150px">
+      <!--<div *ngFor="let lessn of testss; let i=index" >-->
+      <h1 *ngIf="show" style="text-align: center; color: white">LEVEL {{levles+1}}</h1>
+
+      <mat-tab-group >
+        <mat-tab label="Lesson {{i+1}}" *ngFor="let lessn of testss; let i=index" >
+          <button mat-button routerLink="." (click)="openDialog()" style="color: white; font-weight: bold;
+          font-size: medium; text-align: center"
+                  [queryParams]="{id: lessn.id, audio: lessn.audio, en: lessn.en, ru: lessn.ru}"> Open Lesson {{i + 1}}
+          </button>
+        </mat-tab>
+      </mat-tab-group>
+      <!--</div>-->
+    </div>
+    <!--<div *ngIf="showFiller">-->
+      <!--&lt;!&ndash;<div *ngFor="let lessn of testss; let i=index" >&ndash;&gt;-->
+        <!--&lt;!&ndash;<h1 *ngIf="i==0">Level{{ levles+1}}</h1>&ndash;&gt;-->
+            <!--<mat-tab-group *ngFor="let lessn of testss; let i=index" >-->
+              <!--<h1 *ngIf="i==0">Level{{ levles+1}}</h1>-->
+              <!--<mat-tab label="Lesson {{i+1}}">-->
+                <!--<button mat-button routerLink="." (click)="openDialog()"-->
+                        <!--[queryParams]="{id: lessn.id, audio: lessn.audio, en: lessn.en, ru: lessn.ru}">Open dialog</button>-->
+              <!--</mat-tab>-->
+            <!--</mat-tab-group>-->
+      <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--</div>-->
+
+    <div class="testContainer" *ngIf="showFiller1">
+    <form [formGroup]="form">
+      <div class="form-group">
+        <h1 style="text-align: center; font-size: xx-large">{{"Test "+ (ind+1)}}</h1>
+        <div class="form-check" *ngFor="let test of testt; let i=index">
+          <h3 class="question">{{(i+1)+ "." + test.harc}}</h3>
+
+          <div class="answer">
+          <input type="radio"
+                 class="form-check-input"
+                 name="{{i}}"
+                 value="{{test.pat1}}"
+                 formControlName="{{i}}">
+              <span>
+                {{test.pat1}}
+              </span>
+           <br>
+
+          <input type="radio"
+                 class="form-check-input"
+                 name="{{i}}"
+                 value="{{test.pat2}}"
+                 formControlName="{{i}}">
+              <span>
+                  {{test.pat2}}
+              </span>
+           <br>
+          <input type="radio"
+                 class="form-check-input"
+                 name="{{i}}"
+                 value="{{test.pat3}}"
+                 formControlName="{{i}}"
+          >
+              <span>
+                {{test.pat3}}
+              </span>
+           <br>
+
+          <input type="radio"
+                 class="form-check-input"
+                 name="{{i}}"
+                 value="{{test.pat4}}"
+                 formControlName="{{i}}"
+          >
+              <span>
+                {{test.pat4}}
+              </span>
+            <br>
+
+          <input type="radio"
+                 class="form-check-input"
+                 name="{{i}}"
+                 value="{{test.pat5}}"
+                 formControlName="{{i}}"
+          >
+              <span>
+                {{test.pat5}}
+              </span>
+          </div>
+
+          <hr>
+
+        </div>
+        <p style="font-size: x-large; text-align: center">{{correctAnswer}}</p>
+        <button mat-raised-button style="padding: 5px; width: 170px; font-size:30px; border: 2px solid #141A46;
+        margin-left: 40%; margin-bottom: 10px " (click)="correctAnswerAmountCheck() ">CHECK</button>
+      </div>
+    </form>
+    </div>
+    <!--start get started OK-->
+    <div class="example-sidenav-content" style="margin-top: 150px">
+      <router-outlet *ngIf="!hidden"></router-outlet>
+    <h1 style="color: #feffff" *ngIf="hidden1">Speak Fluent <br>English in<br> 2 weeks</h1>
+    <button type="button" *ngIf="hidden1" mat-button (click)="drawer.toggle();  showFiller = false;
+    showFiller1 = false"
+     [disabled]="flag1" style="font-size: xx-large; background-color: #17252A; color: whitesmoke;
+    border-radius: 50px 50px; padding: 25px">
+      Get Started
+    </button>
+    </div>
+
+    <!--end get started OK-->
+  </div>
+</mat-drawer-container>
+
+
+

@@ -1,0 +1,40 @@
+<form class="example-form" style="padding: 50px; background-color: lightgrey">
+
+  <p style="color: darkslateblue; font-size: 50px">Create your account</p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="First name" [formControl]="FirstName" required
+             style="background-color: white; padding: 8px; border: 1px solid grey; border-radius: 0px 0px 20px 20px">
+    </mat-form-field></td> <br>
+    <td><mat-form-field class="example-full-width">
+      <input matInput placeholder="Last name" [formControl]="LastName" required
+             style="background-color: white; padding: 8px; border: 1px solid grey;  border-radius: 0px 0px 20px 20px">
+    </mat-form-field></td>
+  </tr></table>
+
+  <p>
+    <mat-form-field>
+      <input matInput placeholder="Enter email" [formControl]="email" required
+             style="background-color: white; padding: 8px; border: 1px solid grey;  border-radius: 0px 0px 20px 20px">
+      <mat-error *ngIf="email.invalid">
+        {{getErrorMessage()}}</mat-error>
+
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Enter password" [formControl]="password" required
+             style="background-color: white; padding: 8px; border: 1px solid grey;  border-radius: 0px 0px 20px 20px"
+             [type]="hide ? 'password' : 'text'">
+      <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      <!--<mat-error *ngIf="password.invalid && password.touched" >Password has been min {{minLength}} symbols</mat-error>-->
+      <mat-error *ngIf="password.invalid && password.touched">Password should be min {{minLength}} symbols</mat-error>
+    </mat-form-field>
+  </p>
+
+  <button mat-raised-button style="float: right; background-color: whitesmoke"
+          [disabled]="email.invalid || password.invalid || FirstName.invalid || LastName.invalid"
+          (click)="newAddUser()" [mat-dialog-close]="true"
+  >Register</button>
+
+</form>

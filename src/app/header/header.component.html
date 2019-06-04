@@ -1,0 +1,60 @@
+
+          <!--<button mat-raised-button color="primary" (click)="newAddUser()">Registracia</button>-->
+
+          <div>
+
+            <br><hr>
+            <div class="example-container">
+              <div class="row">
+
+                <img src="assets/image/london1.png" alt="english courses" class="image shadow-inner">
+
+                <mat-form-field>
+                  <input matInput placeholder="Enter your email" [formControl]="email" required>
+                  <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field>
+                  <input matInput placeholder="Enter your password" [formControl]="password" required [type]="hide ? 'password' : 'text'">
+                  <mat-error *ngIf="password.invalid">{{getErrorMessage()}}</mat-error>
+                  <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </mat-form-field>
+
+                <button mat-stroked-button class="button" [disabled]="email.invalid || password.invalid" routerLink="home"
+                        (click)="login()">SIGNIN</button>
+
+                <button mat-stroked-button class="button" routerLink="." (click)="openDialog()">SIGNUP</button>
+                <mat-error *ngIf="show" style="font-size: 13px; margin-top: -15px"> You enterd incorrect e-mail or password </mat-error>
+
+
+              </div>
+            </div>
+            <!--<img src="assets/images/english.png" class="img-responsive">-->
+            <br><hr><br>
+
+            <div class="container">
+              <img src="assets/image/4K.jpg" alt="english" class="imagebig">
+              <div class="text-block">
+                <h1 style="text-align: right">WELCOME TO LEARNING COURSES ONLINE.</h1>
+                <h2 style="text-align: right">We have free activities to help you practise your English.</h2>
+              </div>
+            </div>
+
+            <br><hr><br><br>
+
+            <H1 style="text-align: center; color: #ff8080; font-size: 120px; text-shadow: 7px 5px  #66ffff">
+              10 REASONS TO LEARN ENGLISH !
+              <img src="assets/image/download.png" style="width: 150px;" alt="">
+            </H1>
+            <hr> <br><br>
+            <mat-drawer-container class="example-container1" *ngFor="let reasons of reason">
+              <p style="color: darkslategrey; font-size: 20px; padding: 5px">
+                {{ reasons.text }}
+              </p>
+            </mat-drawer-container>
+            <br><hr><br><br>
+
+          </div>
+
+
+

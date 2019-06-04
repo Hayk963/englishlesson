@@ -1,0 +1,1004 @@
+{
+  "reasons": [
+    {
+      "id": 2,
+      "text": "1. English is the most commonly spoken language in the world. One out of five people can speak or at least understand English!"
+    },
+    {
+      "id": 3,
+      "text": "2.  English is the language of science, of aviation, computers, diplomacy, and tourism. Knowing English increases your chances of getting a good job in a multinational company within your home country or of finding work abroad."
+    },
+    {
+      "id": 4,
+      "text": "3. English is the official language of 53 countries. That is a lot of people to meet and speak to."
+    },
+    {
+      "id": 5,
+      "text": "4.  English is spoken as a first language by around 400 million people around the world."
+    },
+    {
+      "id": 6,
+      "text": "5.  English is the language of the media industry. If you speak English, you won't need to rely on translations and subtitles anymore to enjoy your favourite books, songs, films and TV shows."
+    },
+    {
+      "id": 7,
+      "text": "6. English is also the language of the Internet. Many websites are written in English – you will be able to understand them and to take part in forums and discussions."
+    },
+    {
+      "id": 8,
+      "text": "7. English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages."
+    },
+    {
+      "id": 9,
+      "text": "8. English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection."
+    },
+    {
+      "id": 10,
+      "text": "9. Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs."
+    },
+    {
+      "id": 11,
+      "text": "10.  Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours."
+    }
+  ],
+  "test": [
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/2.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/3.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/5.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/6.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/7.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/8.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/9.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/10.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/11.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/12.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/2.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/3.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/2.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/2.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/3.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/3.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/2.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/3.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "audio": "assets/audio/1.mp3",
+        "en": "English is based on a simple alphabet and it is fairly quick and easy to learn compared to other languages.",
+        "ru": "Английский основан на простом алфавите, и его довольно быстро и легко выучить по сравнению с другими языками."
+      },
+      {
+        "id": 2,
+        "audio": "assets/audio/2.mp3",
+        "en": "Since English is spoken in so many different countries there are thousands of schools around the world that offer programmes in English. If you speak English, there're lots of opportunities for you to find an appropriate school and course to suit your academic needs.",
+        "ru": "Поскольку на английском говорят во многих странах, тысячи школ по всему миру предлагают программы на английском языке. Если вы говорите по-английски, у вас будет много возможностей найти подходящую школу и курс, соответствующий вашим академическим потребностям."
+      },
+      {
+        "id": 3,
+        "audio": "assets/audio/3.mp3",
+        "en": "Because it's fun! By learning English, you will also learn about other cultures. Few experiences will make you grow as a person more than learning the values, habits and way of life in a culture that is different from yours.",
+        "ru": "Потому что это весело! Изучая английский, вы также узнаете о других культурах. Немного опыта заставит вас расти как личность больше, чем узнавать ценности, привычки и образ жизни в культуре, отличной от вашей."
+      },
+      {
+        "id": 4,
+        "audio": "assets/audio/4.mp3",
+        "en": "English is not only useful – it gives you a lot of satisfaction. Making progress feels great. You will enjoy learning English, if you remember that every hour you spend gets you closer to perfection.",
+        "ru": "Английский не только полезен - он доставляет много удовольствия. Делать успехи - это прекрасно. Вам понравится изучать английский, если вы помните, что каждый потраченный час приближает вас к совершенству."
+      },
+      {
+        "id": 5,
+        "audio": "assets/audio/5.mp3",
+        "en": "English is spoken as a first language by around 400 million people around the world.",
+        "ru": "На английском языке говорят как на родном языке около 400 миллионов человек по всему миру."
+      }
+    ]
+  ],
+  "testter": [
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello1",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello2",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello3",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello",
+        "jishtPat": "True"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "harc": "Which one of the five is least like the other four?",
+        "pat1": "Dog",
+        "pat2": "Mouse",
+        "pat3": "Lion",
+        "pat4": "Snake",
+        "pat5": "Cat",
+        "jishtPat": "Snake"
+      },
+      {
+        "id": 2,
+        "harc": "Which number should come next in the series? 1 - 1 - 2 - 3 - 5 - 8 - 13",
+        "pat1": "8",
+        "pat2": "13",
+        "pat3": "21",
+        "pat4": "26",
+        "pat5": "57",
+        "jishtPat": "21"
+      },
+      {
+        "id": 3,
+        "harc": "Which one of the five choices makes the best comparison? PEACH is to HCAEP as 46251 is to:",
+        "pat1": "25641",
+        "pat2": "26451",
+        "pat3": "12654",
+        "pat4": "15264",
+        "pat5": "14875",
+        "jishtPat": "15264"
+      },
+      {
+        "id": 4,
+        "harc": "Mary, who is sixteen years old, is four times as old as her brother. How old will Mary be when she is twice as old as her brother?",
+        "pat1": "20",
+        "pat2": "24",
+        "pat3": "25",
+        "pat4": "28",
+        "pat5": "87",
+        "jishtPat": "24"
+      },
+      {
+        "id": 5,
+        "harc": "Which one of the numbers does not belong in the following series? 2 - 3 - 6 - 7 - 8 - 14 - 15 - 30",
+        "pat1": "THREE",
+        "pat2": "SEVEN",
+        "pat3": "EIGHT",
+        "pat4": "FIFTEEN",
+        "pat5": "FIVE",
+        "jishtPat": "EIGHT"
+      },
+      {
+        "id": 6,
+        "harc": "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
+        "pat1": "Twig",
+        "pat2": "Tree",
+        "pat3": "Branch",
+        "pat4": "Blossom",
+        "pat5": "Flower",
+        "jishtPat": "Twig"
+      },
+      {
+        "id": 7,
+        "harc": "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+        "pat1": "City",
+        "pat2": "Animal",
+        "pat3": "Ocean",
+        "pat4": "River",
+        "pat5": "Sea",
+        "jishtPat": "Ocean"
+      },
+      {
+        "id": 8,
+        "harc": "Choose the number that is 1/4 of 1/2 of 1/5 of 200:",
+        "pat1": "2",
+        "pat2": "5",
+        "pat3": "10",
+        "pat4": "25",
+        "pat5": "8",
+        "jishtPat": "5"
+      },
+      {
+        "id": 9,
+        "harc": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make to the store?",
+        "pat1": "3",
+        "pat2": "4",
+        "pat3": "4 1/2",
+        "pat4": "5",
+        "pat5": "7",
+        "jishtPat": "5"
+      },
+      {
+        "id": 10,
+        "harc": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies?",
+        "pat1": "True",
+        "pat2": "False",
+        "pat3": "I don't know",
+        "pat4": "[^-^]",
+        "pat5": "Hello",
+        "jishtPat": "True"
+      }
+    ]
+  ],
+  "user": [
+    {
+      "FirstName": "Hayk",
+      "LastName": "Sargsyan",
+      "email": "aaa@aaa",
+      "password": "aaaaaa",
+      "flag": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "id": 1
+    }
+  ]
+}

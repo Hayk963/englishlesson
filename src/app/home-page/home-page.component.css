@@ -1,0 +1,123 @@
+.container {
+  background-color: #ec8b5e;
+  border-radius: 15px;
+  text-align: right;
+  color: whitesmoke;
+  font-size: x-large;
+  width: 1000px;
+  margin-right: auto;
+margin-left: auto;
+}
+.littleBlock{
+display: inline-block;
+  padding: 5px;
+  margin-left: 10px;
+}
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.example-container {
+  width: 1250px;
+  height: 500px;
+  /*border: 1px solid rgba(0, 0, 0, 0.5);*/
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #3aafa9;
+  border-radius: 20px 20px;
+  box-shadow: 15px 15px 15px #f2e3ba;
+}
+
+.example-sidenav-content {
+  display: flex;
+  /*height: 100%;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 40px;
+}
+
+.test {
+  border-bottom: double teal
+}
+
+
+.testing:focus{
+  /*background: linear-gradient(85deg, floralwhite 100%, #05386b);*/
+  /*margin: 5px;*/
+  border: 3px solid #05386b;
+  /*-webkit-background-clip:text;*/
+  /*-webkit-text-fill-color: transparent;*/
+  color: #05386b;
+}
+
+.testContainer{
+  margin: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid darkgrey;
+  background-color: ghostwhite;
+  border-radius: 30px 30px;
+  box-shadow: 15px 15px 20px grey;
+  border-radius: 20px 20px;
+}
+
+.answer{
+background-color: #ec8b5e;
+  border-radius:20px 20px;
+  color: #141A46;
+  border: 1px solid lightgrey;
+font-size: medium;
+  padding: 20px
+}
+
+
+.question{
+background-color: #141A46;
+  border-radius:20px 20px;
+  color: #ec8b5e;
+padding: 10px;
+  font-style: italic
+}
+
+.testing {
+  margin: 5px;
+  /*border: 1.5px solid #05386b;*/
+  border-radius:4px;
+  cursor:pointer;
+  background: linear-gradient(85deg, #edf5e1 50%, floralwhite 50%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  position:relative;
+  color: floralwhite;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+
+.testing:after {
+  content: "";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:linear-gradient(45deg, #05386b 50%, #3aafa9 50%);
+  z-index:-1;
+}
+
+.testing, .testing:after{
+  background-size:300%;
+  background-position:100%;
+  transition:0.8s;
+}
+
+button:hover, button:hover:after{
+  background-position:0;
+}

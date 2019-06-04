@@ -1,0 +1,14 @@
+
+div{
+  margin-left: 20px;
+
+}
+.a11{
+  text-align: center;
+  border: solid 1px dimgrey;
+  background-color: #d2d2d2;
+  border-radius: 10px 10px;
+}
+.inLeft{
+  border-right: solid 1px grey ;
+}
